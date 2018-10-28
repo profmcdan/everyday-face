@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Hello from './components/Hello';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>React Everyday!</Text>
+        <Hello  name="Daniel" enthusiasmLevel={3}/>
       </View>
     );
   }
